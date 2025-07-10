@@ -1,9 +1,0 @@
-all:
-  children:
-    azure_vms:
-      hosts:
-        vm1-dev-myproject:
-          ansible_host: 4.180.153.94
-      vars:
-        ansible_ssh_user: azureuser
-        ansible_ssh_private_key_file: /home/khant/.ssh/vm.pem
