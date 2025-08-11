@@ -12,3 +12,9 @@ This is creating Azure bastion host using terraform
 1. Create 2 vms, jump server with public ip, vm without
 2. Create network security for vm to only allow jump server to ssh
 3. Create network security for jump server to allow ssh from specific source address
+
+Tips
+- Could implement MFA like google authenticator
+- Disable root login
+- Add fail2ban to prevent brute force attacks
+- Restrict jump server to only allow trusted IP
